@@ -38,11 +38,9 @@ describe("lib-db", function() {
 
     beforeInsert.should.equal(0) &&
       afterInsert.should.equal(1) &&
-      afterInsertData.should.deepEqual([
-        "Get Milk",
-        "A wheel of cheese",
-        "Get Eggs"
-      ]);
+      afterInsertData
+        .sort()
+        .should.deepEqual(["A wheel of cheese", "Get Eggs", "Get Milk"]);
   });
 
   it("get", async () => {
