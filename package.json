@@ -1,6 +1,6 @@
 {
   "name": "isotropy-lib-keyvaluedb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Key-Value-DB Backend for the Isotropy Project",
   "contributors": [
     "Arivanandan U<uarivanandan@gmail.com>",
