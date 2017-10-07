@@ -3,7 +3,7 @@ Key-Value-DB Library for the Isotropy Project
 
 
 ```javascript
-import * from "isotropy-lib-fs"
+import * from "isotropy-lib-filesystem"
 ```
 
 
